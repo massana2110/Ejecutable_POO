@@ -5,6 +5,7 @@
  */
 package ejecutable;
 
+import gui.Ventana;
 /**
  *
  * @author Kevin
@@ -16,9 +17,7 @@ public class Ejecutable {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("PROBANDO");
-        System.out.println("AGREGANDO ESTA LINEA");
-        System.out.println("otra linea");
+        Ventana v = new Ventana();
     }
     
 }
